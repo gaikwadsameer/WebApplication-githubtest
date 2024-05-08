@@ -13,6 +13,12 @@
              <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <asp:Button ID="Button1" runat="server" Text="Button" />
         </div>
+        <asp:GridView ID="GridView1" runat="server">
+            <Columns>
+                <asp:BoundField HeaderText="id" />
+            </Columns>
+        </asp:GridView>
+        <asp:GridView ID="GridView2" runat="server"></asp:GridView>
     </form>
 </body>
 </html>

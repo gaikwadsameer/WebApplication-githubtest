@@ -18,7 +18,11 @@
                 <asp:BoundField HeaderText="id" />
             </Columns>
         </asp:GridView>
-        <asp:GridView ID="GridView2" runat="server"></asp:GridView>
+        <asp:GridView ID="GridView2" runat="server">
+            <Columns>
+                <asp:BoundField HeaderText="id" />
+            </Columns>
+        </asp:GridView>
     </form>
 </body>
 </html>

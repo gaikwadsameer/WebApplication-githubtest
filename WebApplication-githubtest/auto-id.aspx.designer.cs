@@ -11,7 +11,7 @@ namespace WebApplication_githubtest
 {
 
 
-    public partial class WebForm1
+    public partial class auto_id
     {
 
         /// <summary>
@@ -22,5 +22,23 @@ namespace WebApplication_githubtest
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// btnGenerate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGenerate;
+
+        /// <summary>
+        /// lblRandomNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRandomNumber;
     }
 }
